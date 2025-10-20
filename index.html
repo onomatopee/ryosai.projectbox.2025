@@ -26,6 +26,7 @@
       margin: 0px 50px 0px 50px;
       position: relative;
       top: 55px;
+      height: 47px;
     }
     .res .head_left {
       display: block;
@@ -84,78 +85,74 @@
 
 <main>
   <div id="input">
-    <section id="time_place">
-      <h1>企画名で検索</h1>
-      <input id="search_box" placeholder="企画名" type="text">
-      <button id="search_button" onclick="title_search()">検索</button>
-    </section>
-  
-    <section id="time_place">
-      <h1>日時で検索</h1>
-      <div id="time">
-        <button onclick="date_generator(projects,'11/29')">11/29</button>
-        <button onclick="date_generator(projects,'11/30')">11/30</button>
-        <button onclick="date_generator(projects,'12/01')">12/01</button>
-        <button onclick="date_generator(projects,'12/02')">12/02</button>
-        <button onclick="date_generator(projects,'12/03')">12/03</button>
-        <button onclick="date_generator(projects,'12/04')">12/04</button>
-      </div>
-      <div id="place">
-        <button onclick="date_generator(projects,'12/05')">12/05</button>
-        <button onclick="date_generator(projects,'12/06')">12/06</button>
-        <button onclick="date_generator(projects,'12/07')">12/07</button>
-        <button onclick="date_generator(projects,'12/08')">12/08</button>
-        <button onclick="time_generator(projects,'ゲリラ')">ゲリラ</button>
-        <button onclick="time_generator(projects,'常設')">常設</button>
-      </div>
-    </section>
-  
-    <section id="project_canvas">
-      <h1>企画一覧</h1>
-      <!-- <div class="projects">
-        <input type="checkbox" class="project_popup" id="yukiguni">
-        <label class="green_back" for="yukiguni">
-          <div></div>
-          <img class="project_img" src="img/1.jpg">
-          <div class="project_title">
-            <h1>島村の不倫</h1>
-          </div>
-          <div class="project_time_place">
-            <img src="img/time.svg">
-            <h2>12/10 23:00</h2>
-            <img src="img/place.svg">
-            <h2>雪国</h2>
-          </div>
-          <div class="project_txt">
-            <p>国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、島村の前のガラス窓を落した。雪の冷気が流れこんだ。</p>
-          </div>
-        </label>
-  
-        <div class="res">
-          <div class="large_head">
-            <div class="large_head_left">
-              <h1>23:00</h1>
-            </div>
-            <div class="large_head_right">
-              <h1>@雪国</h1>
-            </div>
-          </div>
-          <div class="large_nm">
-            <h1>島村の不倫</h1>
-          </div>
-          <div class="large_img">
-            <img src="img/1.jpg">
-          </div>
-          <div class="large_txt">
-            <p>国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、島村の前のガラス窓を落した。雪の冷気が流れこんだ。</p>
-          </div>
+    <div id="container">
+      <section id="time_place">
+        <h1>日時で検索</h1>
+        <div id="time">
+          <button onclick="date_generator(projects,'11/29')">11/29</button>
+          <button onclick="date_generator(projects,'11/30')">11/30</button>
+          <button onclick="date_generator(projects,'12/01')">12/01</button>
+          <button onclick="date_generator(projects,'12/02')">12/02</button>
+          <button onclick="date_generator(projects,'12/03')">12/03</button>
+          <button onclick="date_generator(projects,'12/04')">12/04</button>
         </div>
-      </div> -->
-      
-    </section>
+        <div id="place">
+          <button onclick="date_generator(projects,'12/05')">12/05</button>
+          <button onclick="date_generator(projects,'12/06')">12/06</button>
+          <button onclick="date_generator(projects,'12/07')">12/07</button>
+          <button onclick="date_generator(projects,'12/08')">12/08</button>
+          <button onclick="time_generator(projects,'ゲリラ')">ゲリラ</button>
+          <button onclick="time_generator(projects,'常設')">常設</button>
+        </div>
+      </section>
+    
+      <section id="project_canvas">
+        <h1>企画一覧</h1>
+        <!-- <div class="projects">
+          <input type="checkbox" class="project_popup" id="yukiguni">
+          <label class="green_back" for="yukiguni">
+            <div></div>
+            <img class="project_img" src="img/1.jpg">
+            <div class="project_title">
+              <h1>島村の不倫</h1>
+            </div>
+            <div class="project_time_place">
+              <img src="img/time.svg">
+              <h2>12/10 23:00</h2>
+              <img src="img/place.svg">
+              <h2>雪国</h2>
+            </div>
+            <div class="project_txt">
+              <p>国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、島村の前のガラス窓を落した。雪の冷気が流れこんだ。</p>
+            </div>
+          </label>
+    
+          <div class="res">
+            <div class="large_head">
+              <div class="large_head_left">
+                <h1>23:00</h1>
+              </div>
+              <div class="large_head_right">
+                <h1>@雪国</h1>
+              </div>
+            </div>
+            <div class="large_nm">
+              <h1>島村の不倫</h1>
+            </div>
+            <div class="large_img">
+              <img src="img/1.jpg">
+            </div>
+            <div class="large_txt">
+              <p>国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、島村の前のガラス窓を落した。雪の冷気が流れこんだ。</p>
+            </div>
+          </div>
+        </div> -->
+        
+      </section>
+    </div>
   </div>
   <div id="output">
-    <div class="res">
+    <div id="result" class="res">
       <div class="head">
         <div class="head_left">
           <h1 id="timePutter" class="font-sans">23:00</h1>

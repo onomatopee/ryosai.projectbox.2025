@@ -4,9 +4,6 @@ $brown: #654313
 $yellow: #EDD312
 $green: #169b31
 $red: #b41959
-$yellow_light: #FFE83C
-$green_light: #5FFF71
-$red_light: #FF4091
 
 =input
   background-image: url("../background_input.png")
@@ -15,59 +12,42 @@ $red_light: #FF4091
   //height: 100vh
   float: right
   padding-top: 50px
-  padding-bottom: 10vh
+  padding-bottom: 50px
+  //margin-top: 50px
+  margin-right: 100px
   overflow: hidden
   z-index: 0
   position: relative
   color: $gray
-  #search_box
-    background-color: transparent
-    text-align: center
-    vertical-align: middle
-    width: 200px
-    margin: 8px 24px 8px 0px
-    padding: 1px 0px
-    font-weight: bold
-    border-radius: 2px
-    color: $gray
-    border: 1px solid $gray
-    box-shadow: 2.8px 2.8px $gray
-    transition: 0.3s ease-in-out
-    font-size: 20px
-  #search_button
-    background-color: transparent
-    text-align: center
-    vertical-align: middle
-    width: 80px
-    margin: 8px 0px
-    padding: 4px 0px
-    border-radius: 2px
-    color: $gray
-    border: 1px solid $gray
-    box-shadow: 2.8px 2.8px $gray
-    transition: 0.3s ease-in-out
-    font-size: 20px
+  border-radius: 10px
+
+  #container
+    position: relative
+    margin-left: 7%
+    margin-right: 7%
+
   #time
     padding-top: 12px
     padding-bottom: 20px
-    width: 50%
+    margin-right: 7%
+    width: 40%
     float: left
     button
-      margin-right: 20px
+      text-align: center
   #place
     padding-top: 12px
     padding-bottom: 20px
-    width: 50%
+    width: 40%
     float: left
     button
-      margin-left: 20px
+      text-align: center
   #time_place:after
     content: ""
     display: block
     clear: both
   button
     background-color: transparent
-    text-align: center
+    text-align: start
     vertical-align: middle
     width: 140px
     margin: 8px 0px
@@ -126,7 +106,7 @@ $red_light: #FF4091
     .project_txt
       width: 296px
       position: relative
-      top: -42px
+      top: -38px
       left: 12px
       p
         font-size: 12px

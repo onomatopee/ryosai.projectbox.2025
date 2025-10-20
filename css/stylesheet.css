@@ -10,58 +10,37 @@
   width: 392px;
   float: right;
   padding-top: 50px;
-  padding-bottom: 10vh;
+  padding-bottom: 50px;
+  margin-right: 100px;
   overflow: hidden;
   z-index: 0;
   position: relative;
   color: #C6C6C6;
+  border-radius: 10px;
 }
-#input #search_box {
-  background-color: transparent;
-  text-align: center;
-  vertical-align: middle;
-  width: 200px;
-  margin: 8px 24px 8px 0px;
-  padding: 1px 0px;
-  font-weight: bold;
-  border-radius: 2px;
-  color: #C6C6C6;
-  border: 1px solid #C6C6C6;
-  box-shadow: 2.8px 2.8px #C6C6C6;
-  transition: 0.3s ease-in-out;
-  font-size: 20px;
-}
-#input #search_button {
-  background-color: transparent;
-  text-align: center;
-  vertical-align: middle;
-  width: 80px;
-  margin: 8px 0px;
-  padding: 4px 0px;
-  border-radius: 2px;
-  color: #C6C6C6;
-  border: 1px solid #C6C6C6;
-  box-shadow: 2.8px 2.8px #C6C6C6;
-  transition: 0.3s ease-in-out;
-  font-size: 20px;
+#input #container {
+  position: relative;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 #input #time {
   padding-top: 12px;
   padding-bottom: 20px;
-  width: 50%;
+  margin-right: 7%;
+  width: 40%;
   float: left;
 }
 #input #time button {
-  margin-right: 20px;
+  text-align: center;
 }
 #input #place {
   padding-top: 12px;
   padding-bottom: 20px;
-  width: 50%;
+  width: 40%;
   float: left;
 }
 #input #place button {
-  margin-left: 20px;
+  text-align: center;
 }
 #input #time_place:after {
   content: "";
@@ -70,7 +49,7 @@
 }
 #input button {
   background-color: transparent;
-  text-align: center;
+  text-align: start;
   vertical-align: middle;
   width: 140px;
   margin: 8px 0px;
@@ -137,7 +116,7 @@
 #input .projects .project_txt {
   width: 296px;
   position: relative;
-  top: -42px;
+  top: -38px;
   left: 12px;
 }
 #input .projects .project_txt p {
@@ -149,9 +128,12 @@
 }
 
 #output {
-  width: 900px;
-  float: left;
-  background: blue;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 50px 100px;
+  background: #b41959;
+  border-radius: 10px;
 }
 
 body {
