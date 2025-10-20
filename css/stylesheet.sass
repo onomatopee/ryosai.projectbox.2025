@@ -1,0 +1,42 @@
+@import "input"
+
+=font-sans
+  font:
+    family: "noto-bold", sans-serif
+    weight: 600
+    style: normal
+
+.font-sans
+  +font-sans
+
+=header
+
+
+
+=output
+  width: 900px
+  float: left
+  background: blue
+
+#input
+  +input
+
+#output
+  +output
+
+body
+  background-image: url("../background.jpg")
+  background-size: contain
+  background-attachment: fixed
+
+*
+  padding: 0px
+  margin: 0px
+
+h1, h2, h3, h4, h5, h6, p, li, a
+  +font-sans
+
+a
+  text-decoration: none
+  //border-bottom: 2px solid $blue
+  color: black

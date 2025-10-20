@@ -1,0 +1,177 @@
+.font-sans {
+  font-family: "noto-bold", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#input {
+  background-image: url("../background_input.png");
+  background-size: contain;
+  width: 392px;
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 10vh;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  color: #C6C6C6;
+}
+#input #search_box {
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  margin: 8px 24px 8px 0px;
+  padding: 1px 0px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: #C6C6C6;
+  border: 1px solid #C6C6C6;
+  box-shadow: 2.8px 2.8px #C6C6C6;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+}
+#input #search_button {
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  width: 80px;
+  margin: 8px 0px;
+  padding: 4px 0px;
+  border-radius: 2px;
+  color: #C6C6C6;
+  border: 1px solid #C6C6C6;
+  box-shadow: 2.8px 2.8px #C6C6C6;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+}
+#input #time {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  width: 50%;
+  float: left;
+}
+#input #time button {
+  margin-right: 20px;
+}
+#input #place {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  width: 50%;
+  float: left;
+}
+#input #place button {
+  margin-left: 20px;
+}
+#input #time_place:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#input button {
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+  margin: 8px 0px;
+  padding: 4px 0px;
+  border-radius: 2px;
+  color: #C6C6C6;
+  border: 1px solid #C6C6C6;
+  box-shadow: 2.8px 2.8px #C6C6C6;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+}
+#input .projects {
+  margin-top: 20px;
+}
+#input .projects button {
+  width: 320px;
+  height: 200px;
+  margin-bottom: 40px;
+  display: block;
+  border-radius: 3px;
+  color: #C6C6C6;
+  border: 1px solid #C6C6C6;
+  box-shadow: 3px 3px #C6C6C6;
+}
+#input .projects .project_img {
+  height: 68px;
+  width: 68px;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  margin: 0;
+}
+#input .projects .project_title {
+  position: relative;
+  top: -56px;
+  left: 92px;
+  width: 220px;
+  height: 56px;
+}
+#input .projects .project_title h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+#input .projects .project_title .small_point {
+  font-size: 16px;
+  line-height: 18.4px;
+}
+#input .projects .project_time_place {
+  display: flex;
+  position: relative;
+  top: -38px;
+  left: 8px;
+}
+#input .projects .project_time_place img {
+  height: 12px;
+  width: auto;
+  margin: 2px 4px 2px 6px;
+}
+#input .projects .project_time_place h2 {
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+}
+#input .projects .project_txt {
+  width: 296px;
+  position: relative;
+  top: -42px;
+  left: 12px;
+}
+#input .projects .project_txt p {
+  font-size: 12px;
+  line-height: 14px;
+}
+#input .projects .res {
+  display: none;
+}
+
+#output {
+  width: 900px;
+  float: left;
+  background: blue;
+}
+
+body {
+  background-image: url("../background.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: "noto-bold", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=stylesheet.css.map */

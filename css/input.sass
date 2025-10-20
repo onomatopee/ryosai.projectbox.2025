@@ -1,0 +1,136 @@
+$blue: #00205D
+$gray: #C6C6C6
+$brown: #654313
+$yellow: #EDD312
+$green: #169b31
+$red: #b41959
+$yellow_light: #FFE83C
+$green_light: #5FFF71
+$red_light: #FF4091
+
+=input
+  background-image: url("../background_input.png")
+  background-size: contain
+  width: 392px
+  //height: 100vh
+  float: right
+  padding-top: 50px
+  padding-bottom: 10vh
+  overflow: hidden
+  z-index: 0
+  position: relative
+  color: $gray
+  #search_box
+    background-color: transparent
+    text-align: center
+    vertical-align: middle
+    width: 200px
+    margin: 8px 24px 8px 0px
+    padding: 1px 0px
+    font-weight: bold
+    border-radius: 2px
+    color: $gray
+    border: 1px solid $gray
+    box-shadow: 2.8px 2.8px $gray
+    transition: 0.3s ease-in-out
+    font-size: 20px
+  #search_button
+    background-color: transparent
+    text-align: center
+    vertical-align: middle
+    width: 80px
+    margin: 8px 0px
+    padding: 4px 0px
+    border-radius: 2px
+    color: $gray
+    border: 1px solid $gray
+    box-shadow: 2.8px 2.8px $gray
+    transition: 0.3s ease-in-out
+    font-size: 20px
+  #time
+    padding-top: 12px
+    padding-bottom: 20px
+    width: 50%
+    float: left
+    button
+      margin-right: 20px
+  #place
+    padding-top: 12px
+    padding-bottom: 20px
+    width: 50%
+    float: left
+    button
+      margin-left: 20px
+  #time_place:after
+    content: ""
+    display: block
+    clear: both
+  button
+    background-color: transparent
+    text-align: center
+    vertical-align: middle
+    width: 140px
+    margin: 8px 0px
+    padding: 4px 0px
+    border-radius: 2px
+    color: $gray
+    border: 1px solid $gray
+    box-shadow: 2.8px 2.8px $gray
+    transition: 0.3s ease-in-out
+    font-size: 20px
+
+  .projects
+    margin-top: 20px
+    button
+      width: 320px
+      height: 200px
+      margin-bottom: 40px
+      //background-color: $gray
+      display: block
+      border-radius: 3px
+      color: $gray
+      border: 1px solid $gray
+      box-shadow: 3px 3px $gray
+    .project_img
+      height: 68px
+      width: 68px
+      position: relative
+      top: 12px
+      left: 12px
+      margin: 0
+    .project_title
+      position: relative
+      top: -56px
+      left: 92px
+      width: 220px
+      height: 56px
+      h1
+        font-size: 24px
+        line-height: 28px
+      .small_point
+        font-size: 16px
+        line-height: 18.4px
+    .project_time_place
+      display: flex
+      position: relative
+      top: -38px
+      left: 8px
+      img
+        height: 12px
+        width: auto
+        margin: 2px 4px 2px 6px
+      h2
+        font-size: 12px
+        line-height: 14px
+        display: block
+    .project_txt
+      width: 296px
+      position: relative
+      top: -42px
+      left: 12px
+      p
+        font-size: 12px
+        line-height: 14px
+
+    .res
+      display: none
