@@ -50,7 +50,6 @@
 #input button {
   background-color: transparent;
   text-align: start;
-  vertical-align: middle;
   width: 140px;
   margin: 8px 0px;
   padding: 4px 0px;
@@ -66,13 +65,13 @@
 }
 #input .projects button {
   width: 320px;
-  height: 200px;
   margin-bottom: 40px;
   display: block;
   border-radius: 3px;
   color: #C6C6C6;
   border: 1px solid #C6C6C6;
   box-shadow: 3px 3px #C6C6C6;
+  padding-top: 0px;
 }
 #input .projects .project_img {
   height: 68px;
@@ -147,7 +146,7 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
+h1, h2, h3, h4, h5, h6, p, li, a, button {
   font-family: "noto-bold", sans-serif;
   font-weight: 600;
   font-style: normal;
