@@ -29,34 +29,45 @@
   font-weight: 600
   font-style: normal
   background-color: white
+  position: relative
   .head
     width: 8.53px
-    font-size: 7px
+    height: 100%
     float: right
     writing-mode: vertical-rl
-  .head_top
+    position: absolute
     top: 0
     right: 0
-    height: 45%
-    //position: absolute
+    border-left: 0.5px solid
+  .head_top
+    top: 0
+    right: -4.5px
+    font-size: 5px
+    //background-color: red
+    z-index: 100
+    height: 30%
+    position: absolute
   .head_bottom
     bottom: 0
-    right: 0
-    height: 45%
-    //position: absolute
+    right: -0.5px
+    font-size: 4px
+    height: 65%
+    //background-color: blue
+    z-index: 100
+    position: absolute
+    text-align: right
   .deleteTitle
     display: none
   .txt
     width: 61.76px
-    text-align: justify
     padding: 0.5px
     h1
       font-size: 6px
       text-align: center
     p
-      font-size: 4.3px
+      font-size: 3.8px
+      text-align: justify
   .img
-    border-right: 0.5px solid
     width: 62.76px
     height: 62.76px
     top: 0
@@ -70,8 +81,8 @@
     border-bottom: 0.5px solid
     height: 89.17px
 
-#result
-  +res
+.res
+  //+res
 
 #input
   +input

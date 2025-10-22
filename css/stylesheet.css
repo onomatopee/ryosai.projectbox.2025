@@ -4,65 +4,6 @@
   font-style: normal;
 }
 
-#result {
-  width: 71.79px;
-  height: 89.17px;
-  border: 0.5px solid;
-  font-family: "noto-bold", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  background-color: white;
-}
-#result .head {
-  width: 8.53px;
-  font-size: 7px;
-  float: right;
-  writing-mode: vertical-rl;
-}
-#result .head_top {
-  top: 0;
-  right: 0;
-  height: 45%;
-}
-#result .head_bottom {
-  bottom: 0;
-  right: 0;
-  height: 45%;
-}
-#result .deleteTitle {
-  display: none;
-}
-#result .txt {
-  width: 61.76px;
-  text-align: justify;
-  padding: 0.5px;
-}
-#result .txt h1 {
-  font-size: 6px;
-  text-align: center;
-}
-#result .txt p {
-  font-size: 4.3px;
-}
-#result .img {
-  border-right: 0.5px solid;
-  width: 62.76px;
-  height: 62.76px;
-  top: 0;
-  left: 0;
-}
-#result img {
-  width: 100%;
-  height: 100%;
-}
-#result .deleteImgParent {
-  display: none;
-}
-#result .noTxt {
-  border-bottom: 0.5px solid;
-  height: 89.17px;
-}
-
 #input {
   background-image: url("../background_input.png");
   background-size: contain;
