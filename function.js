@@ -20,8 +20,12 @@ function update(id) {
     document.getElementById('head_top').classList.add("kanjiTime");
     document.getElementById('head_top').classList.remove("head_top");
   }
+  if (proj["place"] == "") {
+    document.getElementById('placePutter').textContent = proj["place"];
+  } else {
+    document.getElementById('placePutter').textContent = "＠"+proj["place"];
+  }
   document.getElementById('timePutter').textContent = proj["time"];
-  document.getElementById('placePutter').textContent = proj["place"];
   document.getElementById('textPutter').textContent = proj["txt"];
 }
 
