@@ -4,6 +4,8 @@ function update(id) {
   document.getElementById('resImg').classList.remove("noTxt"); // remove "noTxt" class
   document.getElementById('resImgParent').classList.remove("deleteImgParent");
   document.getElementById('title').classList.add("deleteTitle");
+  document.getElementById('head_top').classList.remove("kanjiTime");
+  document.getElementById('head_top').classList.add("head_top");
   if (proj["txt"] == "") { // case of only img ver.
     document.getElementById('resImg').classList.add("noTxt"); // give a class "noTxt" to img
   }
@@ -13,6 +15,10 @@ function update(id) {
     document.getElementById('resImgParent').classList.add("deleteImgParent");
     document.getElementById('title').classList.remove("deleteTitle");
     document.getElementById('title').textContent = proj["title"];
+  }
+  if (proj["time"] == "ゲリラ" || proj["time"] == "常設") {
+    document.getElementById('head_top').classList.add("kanjiTime");
+    document.getElementById('head_top').classList.remove("head_top");
   }
   document.getElementById('timePutter').textContent = proj["time"];
   document.getElementById('placePutter').textContent = proj["place"];
