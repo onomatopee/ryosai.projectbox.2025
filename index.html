@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <head lang="ja">
   <style id="css">
-    * {
+    @font-face {
+      font-family: noto-bold;
+      src: url("https://onomatopee.github.io/ryosai.projectbox/fonts/NotoSansJP-Regular.ttf") format("truetype");
+    }
+    /* * {
       padding: 0px;
       margin: 0px;
     }
@@ -74,7 +78,7 @@
     }
     .res .txt p {
       font-size: 18px;
-    }
+    } */
   </style>
 
   <meta charset="utf-8">
@@ -152,7 +156,25 @@
     </div>
   </div>
   <div id="output">
-    <div id="result" class="res">
+    <div id="result">
+      <div class="head">
+        <div class="head_top">
+          <h1 id="timePutter" class="font-sans">23:00</h1>
+        </div>
+        <div class="head_bottom">
+          <h1 id="placePutter" class="font-sans">@雪国</h1>
+        </div>
+      </div>
+      <div id="resImgParent" class="img">
+        <img id="resImg" src="test.jpg">
+      </div>
+      <div class="txt">
+        <h1 id="title" class="deleteTitle"></h1>
+        <p id="textPutter">国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、</p>
+      </div>
+    </div>
+
+    <!-- <div id="result" class="res">
       <div class="head">
         <div class="head_left">
           <h1 id="timePutter" class="font-sans">23:00</h1>
@@ -170,7 +192,7 @@
       <div class="txt">
         <p id="textPutter">国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。向側の座席から娘が立って来て、島村の前のガラス窓を落した。雪の冷気が流れこんだ。</p>
       </div>
-    </div>
+    </div> -->
 
     <button onclick="generate()">Generate!!</button>
   </div>

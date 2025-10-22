@@ -1,11 +1,22 @@
 function update(id) {
-  console.log("click");
+  haveImg = true;
   proj = projects[index_finder[id]];
+  document.getElementById('resImg').classList.remove("noTxt"); // remove "noTxt" class
+  document.getElementById('resImgParent').classList.remove("deleteImgParent");
+  document.getElementById('title').classList.add("deleteTitle");
+  if (proj["txt"] == "") { // case of only img ver.
+    document.getElementById('resImg').classList.add("noTxt"); // give a class "noTxt" to img
+  }
+  if (haveImg) { // default
+    document.getElementById('resImg').src = "img/"+proj["title"]+".jpg";
+  } else { // case of no img ver.
+    document.getElementById('resImgParent').classList.add("deleteImgParent");
+    document.getElementById('title').classList.remove("deleteTitle");
+    document.getElementById('title').textContent = proj["title"];
+  }
   document.getElementById('timePutter').textContent = proj["time"];
   document.getElementById('placePutter').textContent = proj["place"];
   document.getElementById('textPutter').textContent = proj["txt"];
-  document.getElementById('nm').textContent = proj["title"];
-  document.getElementById('resImg').src = "img/"+proj["title"]+".jpg";
 }
 
 function generate() {
