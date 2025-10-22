@@ -21,7 +21,7 @@ function update(id) {
 
 function generate() {
   //update();
-  const $preview = document.querySelector(".res");
+  const $preview = document.querySelector("#result");
   $preview.addEventListener("input", () => {
     for (const $img of $preview.querySelectorAll("img")) {
       if ($img.src.match(/^https*:/)) {
