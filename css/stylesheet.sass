@@ -14,7 +14,7 @@
 
 
 =output
-  width: 600px
+  width: 550px
   margin-top: 50px
   margin-left: 50px
   padding: 50px 100px
@@ -22,35 +22,35 @@
   border-radius: 10px
 
 =res
-  width: 71.79px
-  height: 89.17px
-  border: 0.5px solid
+  width: 502.53px
+  height: 624.19px
+  border: 3.5px solid
   font-family: "noto-bold", sans-serif
   font-weight: 600
   font-style: normal
   background-color: white
   position: relative
   .head
-    width: 8.53px
+    width: 59.71px
     height: 100%
     float: right
     writing-mode: vertical-rl
     position: absolute
     top: 0
     right: 0
-    border-left: 0.5px solid
+    border-left: 3.5px solid
   .head_top
     top: 0
-    right: -4.5px
-    font-size: 5px
+    right: -27px
+    font-size: 35px
     //background-color: red
     z-index: 100
     height: 30%
     position: absolute
   .head_bottom
     bottom: 0
-    right: -0.5px
-    font-size: 4px
+    right: -3.5px
+    font-size: 28px
     height: 65%
     //background-color: blue
     z-index: 100
@@ -59,17 +59,17 @@
   .deleteTitle
     display: none
   .txt
-    width: 61.76px
-    padding: 0.5px
+    width: 432.32px
+    padding: 3.5px
     h1
-      font-size: 6px
+      font-size: 42px
       text-align: center
     p
-      font-size: 3.8px
+      font-size: 26.6px
       text-align: justify
   .img
-    width: 62.76px
-    height: 62.76px
+    width: 439.32px
+    height: 439.32px
     top: 0
     left: 0
   img
@@ -78,11 +78,25 @@
   .deleteImgParent
     display: none
   .noTxt
-    border-bottom: 0.5px solid
-    height: 89.17px
+    border-bottom: 3.5px solid
+    height: 624.19px
 
 .res
-  //+res
+  +res
+
+button
+  background-color: transparent
+  text-align: center
+  //vertical-align: middle
+  width: 509px
+  margin: 30px 0px
+  padding: 4px 0px
+  border-radius: 2px
+  color: $gray
+  border: 1px solid $gray
+  box-shadow: 2.8px 2.8px $gray
+  transition: 0.3s ease-in-out
+  font-size: 20px
 
 #input
   +input
