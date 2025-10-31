@@ -77,21 +77,15 @@ async function start() {
   
   // 2倍のサイズでcanvasに描画する
   // svgなので描画サイズは自由に変えられる
-  // $canvas.width = w * 2;
-  // $canvas.height = h * 2;
-
-  $canvas.width = w;
-  $canvas.height = h;
+  $canvas.width = w * 2;
+  $canvas.height = h * 2;
 
   const img = new Image();
   img.src = svgBase64;
 
   img.onload = () => {
     // 2倍のサイズでcanvasに描画する
-    // ctx.drawImage(img, 0, 0, w * 2, h * 2);
-
-    // そのままのサイズでcanvasに描画する
-    ctx.drawImage(img, 0, 0, w, h);
+    ctx.drawImage(img, 0, 0, w * 2, h * 2);
   }
   img.onerror = err => {
     console.log(err);
