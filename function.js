@@ -80,8 +80,8 @@ async function start() {
   // $canvas.width = w * 2;
   // $canvas.height = h * 2;
 
-  $canvas.width = w * 2;
-  $canvas.height = h * 2;
+  $canvas.width = w;
+  $canvas.height = h;
 
   const img = new Image();
   img.src = svgBase64;
