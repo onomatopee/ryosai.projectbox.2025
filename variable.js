@@ -124,7 +124,7 @@ const projects =
       "title": "キムチつける",
       "date": "11/28",
       "time": "21:00",
-      "place": "C12談話室",
+      "place": "Ｃ１２談話室",
       "haveImg": "n",
       "txt": ""
   },
@@ -233,10 +233,10 @@ const projects =
       "txt": ""
   },
   {
-      "title": "屋上射撃",
+      "title": "屋上射撃x射的",
       "date": "11/29",
       "time": "16:00",
-      "place": "C棟屋上",
+      "place": "Ｃ棟屋上",
       "haveImg": "y",
       "txt": "撃ちたい人も、撃たれたい人も。C棟1階の階段下に立札が出ていれば開催中。射撃巧者には平和について考える冊子を贈呈。"
   },
@@ -316,7 +316,7 @@ const projects =
       "title": "熊野寮プロメテウス",
       "date": "11/30",
       "time": "12:00",
-      "place": "AB棟間中庭",
+      "place": "ＡＢ棟間中庭",
       "haveImg": "y",
       "txt": ""
   },
@@ -452,7 +452,7 @@ const projects =
       "title": "デニム染めよう",
       "date": "12/01",
       "time": "10:00",
-      "place": "C２炊事場",
+      "place": "Ｃ２炊事場",
       "haveImg": "y",
       "txt": ""
   },
@@ -460,7 +460,7 @@ const projects =
       "title": "大声ダイヤモンド",
       "date": "12/01",
       "time": "12:30",
-      "place": "B棟屋上",
+      "place": "Ｂ棟屋上",
       "haveImg": "y",
       "txt": ""
   },
@@ -492,7 +492,7 @@ const projects =
       "title": "BC棟間綱渡り",
       "date": "12/01",
       "time": "15:30",
-      "place": "BC棟屋上",
+      "place": "ＢＣ棟屋上",
       "haveImg": "y",
       "txt": ""
   },
@@ -612,7 +612,7 @@ const projects =
       "title": "コマンドー上映会",
       "date": "12/01",
       "time": "20:00",
-      "place": "C12談話室",
+      "place": "Ｃ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -662,7 +662,7 @@ const projects =
       "time": "22:00",
       "place": "吉田本部構内",
       "haveImg": "y",
-      "txt": ""
+      "txt": " "
   },
   {
       "title": "理農学部コンパ",
@@ -788,7 +788,7 @@ const projects =
       "title": "屋上からポップコーンwith鶏",
       "date": "12/02",
       "time": "14:00",
-      "place": "A棟屋上・中庭",
+      "place": "Ａ棟屋上・中庭",
       "haveImg": "y",
       "txt": ""
   },
@@ -844,7 +844,7 @@ const projects =
       "title": "ミリしらビブリオバトル",
       "date": "12/02",
       "time": "19:00",
-      "place": "食堂またはC12談話室",
+      "place": "食堂またはＣ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -852,7 +852,7 @@ const projects =
       "title": "ボーグバトル2025",
       "date": "12/02",
       "time": "19:00",
-      "place": "食堂あるいはロビー",
+      "place": "食堂またはロビー",
       "haveImg": "y",
       "txt": ""
   },
@@ -1020,7 +1020,7 @@ const projects =
       "title": "BC棟間くそでかブランコ",
       "date": "12/03",
       "time": "9:00",
-      "place": "BC棟間",
+      "place": "ＢＣ棟間",
       "haveImg": "y",
       "txt": ""
   },
@@ -1348,7 +1348,7 @@ const projects =
       "title": "みかん祭り",
       "date": "12/04",
       "time": "15:00",
-      "place": "AB棟間中庭",
+      "place": "ＡＢ棟間中庭",
       "haveImg": "y",
       "txt": ""
   },
@@ -1420,7 +1420,7 @@ const projects =
       "title": "自己批判",
       "date": "12/04",
       "time": "20:30",
-      "place": "C棟屋上",
+      "place": "Ｃ棟屋上",
       "haveImg": "y",
       "txt": ""
   },
@@ -1508,7 +1508,7 @@ const projects =
       "title": "マジカルミライ上映会",
       "date": "12/04",
       "time": "22:00",
-      "place": "B12談話室",
+      "place": "Ｂ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -1748,7 +1748,7 @@ const projects =
       "title": "リアルツイッター",
       "date": "12/06",
       "time": "13:00",
-      "place": "AB棟間中庭",
+      "place": "ＡＢ棟間中庭",
       "haveImg": "y",
       "txt": ""
   },
@@ -1804,7 +1804,7 @@ const projects =
       "title": "ブロック対決創作料理",
       "date": "12/06",
       "time": "15:00",
-      "place": "各炊事場で作り、食堂で振る舞う",
+      "place": "各炊事場↓食堂",
       "haveImg": "n",
       "txt": "素晴らしい料理人と美食家がいると噂の熊野寮生が作った創作料理を審査員(あなた)が食べる。食料費はカンパ制を予定。"
   },
@@ -1900,9 +1900,9 @@ const projects =
       "title": "哲学対話",
       "date": "12/06",
       "time": "20:00",
-      "place": "C12談話室",
+      "place": "Ｃ１２談話室",
       "haveImg": "y",
-      "txt": ""
+      "txt": "哲学対話とは日常で感じる哲学的な問いをみんなで深めて対話する活動です。ココアを片手にこの瞬間この人たちで生まれていく対話の流れを味わいませんか？"
   },
   {
       "title": "失神した人にブランデーをかがせる",
@@ -2084,7 +2084,7 @@ const projects =
       "title": "今年のひらがな",
       "date": "12/07",
       "time": "22:00",
-      "place": "B2バルコニー",
+      "place": "Ｂ２バルコニー",
       "haveImg": "y",
       "txt": ""
   },
@@ -2188,7 +2188,7 @@ const projects =
       "title": "けいおん!けいおん‼︎映画けいおん!鑑賞会",
       "date": "",
       "time": "常設",
-      "place": "B12談話室",
+      "place": "Ｂ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -2212,7 +2212,7 @@ const projects =
       "title": "トイレでお花を摘む",
       "date": "",
       "time": "常設",
-      "place": "B2トイレ",
+      "place": "Ｂ２トイレ",
       "haveImg": "y",
       "txt": ""
   },
@@ -2276,7 +2276,7 @@ const projects =
       "title": "みかん祭り粉砕",
       "date": "",
       "time": "常設",
-      "place": "みかんがあるところ。",
+      "place": "みかんがあるところ",
       "haveImg": "y",
       "txt": "投げるためのみかんを全て食い尽くして、みかん祭りを粉砕しよう。"
   },
@@ -2436,7 +2436,7 @@ const projects =
       "title": "最高のだじゃれをさがす",
       "date": "",
       "time": "常設",
-      "place": "オープンチャット上、食堂またはC12談話室",
+      "place": "オープンチャット上、食堂またはＣ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -2452,7 +2452,7 @@ const projects =
       "title": "寮食かるた！",
       "date": "",
       "time": "常設",
-      "place": "食堂またはC12談話室",
+      "place": "食堂またはＣ１２談話室",
       "haveImg": "y",
       "txt": ""
   },
@@ -2535,6 +2535,14 @@ const projects =
       "place": "食堂",
       "haveImg": "y",
       "txt": ""
+  },
+  {
+    "title": "JACK of All Trades",
+    "date": "",
+    "time": "常設",
+    "place": "食堂・食堂周辺",
+    "haveImg": "n",
+    "txt": "農産物販売；柑橘、米、古代米（赤米、黒米）農業書籍販売、フリマ"
   },
   {
       "title": "殴る、蹴る。",
@@ -2780,7 +2788,7 @@ const projects =
       "title": "ジャグアタトゥー屋さんAiAi",
       "date": "",
       "time": "ゲリラ",
-      "place": "椅子と机があればどこでもできます",
+      "place": "椅子と机があればどこでも",
       "haveImg": "y",
       "txt": ""
   },
@@ -2852,7 +2860,7 @@ const projects =
       "title": "夏をする。",
       "date": "",
       "time": "ゲリラ",
-      "place": "B12談話室",
+      "place": "Ｂ１２談話室",
       "haveImg": "y",
       "txt": "談話室を全力の暖房で温めている間に、夏っぽいことを全部する。"
   },
@@ -3084,7 +3092,7 @@ const projects =
       "title": "ジュークボックス修理",
       "date": "",
       "time": "ゲリラ",
-      "place": "C2踊り場",
+      "place": "Ｃ２踊り場",
       "haveImg": "y",
       "txt": "踊り場に放置され何度もすてられそうになったジュークボックスをなおしておしゃな雰囲気をつくります。"
   },
@@ -3260,7 +3268,7 @@ const projects =
       "title": "ほんとに学習する学習会",
       "date": "",
       "time": "ゲリラ",
-      "place": "食北またはC12談話室",
+      "place": "食北またはＣ１２談話室",
       "haveImg": "n",
       "txt": "ほんとに学習する学習会　寮祭期間中でも事情があって勉強しなければいけない時に人を募って一緒に勉強することで寮祭に参加している気分になろう！"
   },
@@ -3276,7 +3284,7 @@ const projects =
       "title": "死ね花",
       "date": "",
       "time": "ゲリラ",
-      "place": "C棟外階段2F踊り場",
+      "place": "Ｃ棟外階段２Ｆ踊り場",
       "haveImg": "n",
       "txt": "観葉植物はどれだけ丁寧に世話をしてもいつかは枯れ、捨てられてしまうもの。そこで、もう使われなくなった歯車や水平器などの人工遺物に穴をあけてガラス管を差し、そこに枯れた植物を「死ね花」として活けなおすことで植物状態の延命・永続化を図ります。階段の展示はいつでも鑑賞可能。ワークショップ「死ね花」は「公園のハトに労働契約を結ばせよう！」と同時開催予定です。"
   },
@@ -3284,7 +3292,7 @@ const projects =
       "title": "屋上の狙撃手",
       "date": "",
       "time": "ゲリラ",
-      "place": "C棟屋上",
+      "place": "Ｃ棟屋上",
       "haveImg": "y",
       "txt": ""
   },
