@@ -20,6 +20,7 @@ function project_str(proj) {
     case "Let's_Go_Memeをやってみる":
       proj_imgurl = "Lets_Go_Memeをやってみる.jpg";
       break;
+
   }
 
   switch (proj_date.substr(3,2) % 3) {
@@ -36,7 +37,7 @@ function project_str(proj) {
 
   if (proj_name.length > 18 && proj_place !== "") {
     return `<div class="projects">
-      <button onclick="update('${proj_name}${proj_time}${proj_place}')" class="project_popup ${color}_back" id="${proj_name}${proj_time}${proj_place}">
+      <button onclick='update("${proj_name}${proj_time}${proj_place}")' class="project_popup ${color}_back" id="${proj_name}${proj_time}${proj_place}">
         <img class="project_img" src="img/${proj_imgurl}">
         <div class="project_title">
           <h1 class="small_point">${proj_name}</h1>
