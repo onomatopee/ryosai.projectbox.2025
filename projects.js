@@ -20,9 +20,6 @@ function project_str(proj) {
     case "Let's_Go_Memeをやってみる":
       proj_imgurl = "Lets_Go_Memeをやってみる.jpg";
       break;
-    case "#熊野寮祭2024をトレンド入りさせる":
-      proj_imgurl = "熊野寮祭2024をトレンド入りさせる.jpg";
-      break;
   }
 
   switch (proj_date.substr(3,2) % 3) {

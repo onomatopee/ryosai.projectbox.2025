@@ -11,6 +11,9 @@ function update(id) {
   }
   if (haveImg == 'y') { // default
     document.getElementById('resImg').src = "img/"+proj["title"]+".jpg";
+    if (proj["title"] == "Let's_Go_Memeをやってみる") {
+      document.getElementById('resImg').src = "Lets_Go_Memeをやってみる.jpg";
+    }
   } else { // case of no img ver.
     document.getElementById('resImgParent').classList.add("deleteImgParent");
     document.getElementById('title').classList.remove("deleteTitle");
