@@ -1,6 +1,6 @@
 function update(id) {
-  haveImg = true;
   proj = projects[index_finder[id]];
+  haveImg = proj["haveImg"];
   document.getElementById('resImg').classList.remove("noTxt"); // remove "noTxt" class
   document.getElementById('resImgParent').classList.remove("deleteImgParent");
   document.getElementById('title').classList.add("deleteTitle");
@@ -9,7 +9,7 @@ function update(id) {
   if (proj["txt"] == "") { // case of only img ver.
     document.getElementById('resImg').classList.add("noTxt"); // give a class "noTxt" to img
   }
-  if (haveImg) { // default
+  if (haveImg == 'y') { // default
     document.getElementById('resImg').src = "img/"+proj["title"]+".jpg";
   } else { // case of no img ver.
     document.getElementById('resImgParent').classList.add("deleteImgParent");

@@ -6,13 +6,19 @@ function project_str(proj) {
   proj_date = proj["date"];
   proj_time = proj["time"];
   proj_place = proj["place"];
-  proj_imgurl = proj_name+".jpg";
+  haveImg = proj["haveImg"];
+  console.log(haveImg);
+  if (haveImg == "y") {
+    proj_imgurl = proj_name+".jpg";
+  } else {
+    proj_imgurl = "noimg.jpg";
+  }
   proj_txt = proj["txt"];
   console.log(proj_name);
 
   switch (proj_name) {
-    case "Fate/stay night Heaven's Feel 上映会":
-      proj_imgurl = "Fate.stay night Heaven's Feel 上映会.jpg";
+    case "Let's_Go_Memeをやってみる":
+      proj_imgurl = "Lets_Go_Memeをやってみる.jpg";
       break;
     case "#熊野寮祭2024をトレンド入りさせる":
       proj_imgurl = "熊野寮祭2024をトレンド入りさせる.jpg";
