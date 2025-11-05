@@ -4,6 +4,7 @@ function update(id) {
   document.getElementById('resImg').classList.remove("noTxt"); // remove "noTxt" class
   document.getElementById('resImgParent').classList.remove("deleteImgParent");
   document.getElementById('title').classList.add("deleteTitle");
+  document.getElementById('textPutter').classList.remove("deleteImgTxt");
   document.getElementById('head_top').classList.remove("kanjiTime");
   document.getElementById('head_top').classList.add("head_top");
   if (proj["txt"] == "") { // case of only img ver.
@@ -17,6 +18,7 @@ function update(id) {
   } else { // case of no img ver.
     document.getElementById('resImgParent').classList.add("deleteImgParent");
     document.getElementById('title').classList.remove("deleteTitle");
+    document.getElementById('textPutter').classList.add("deleteImgTxt");
     document.getElementById('title').textContent = proj["title"];
   }
   if (proj["time"] == "ゲリラ" || proj["time"] == "常設") {
