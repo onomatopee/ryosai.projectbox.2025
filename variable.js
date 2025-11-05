@@ -2091,7 +2091,7 @@ const projects =
   {
       "title": "花火",
       "date": "12/07",
-      "time": "22:30",
+      "time": "22:00",
       "place": "中庭・京都大学",
       "haveImg": "y",
       "txt": ""
@@ -2099,7 +2099,7 @@ const projects =
   {
       "title": "プラズマカノン",
       "date": "12/07",
-      "time": "23:00",
+      "time": "22:00",
       "place": "駐輪場",
       "haveImg": "y",
       "txt": ""
@@ -2107,7 +2107,7 @@ const projects =
   {
       "title": "ロシアンオイスター",
       "date": "12/07",
-      "time": "23:30",
+      "time": "22:00",
       "place": "食堂",
       "haveImg": "y",
       "txt": "当たるも牡蠣、当たらぬも牡蠣。"
