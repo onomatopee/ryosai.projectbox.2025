@@ -3398,7 +3398,7 @@ const projects =
       "time": "ゲリラ",
       "place": "ロビーか寮入口",
       "haveImg": "n",
-      "txt": "GwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwaGwa"
+      "txt": "GwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwa"
   },
   {
       "title": "ウイスキー飲み比べ",
