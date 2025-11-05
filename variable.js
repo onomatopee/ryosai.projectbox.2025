@@ -3455,7 +3455,15 @@ const projects =
     "place": "",
     "haveImg": "y",
     "txt": ""
-},
+  },
+  {
+    "title": "こがちのこばち",
+    "date": "",
+    "time": "ゲリラ",
+    "place": "",
+    "haveImg": "y",
+    "txt": ""
+  },
   {
       "title": "同上",
       "date": "",
