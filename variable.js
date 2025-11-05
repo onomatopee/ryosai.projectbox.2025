@@ -390,7 +390,7 @@ const projects =
       "time": "23:00",
       "place": "食堂",
       "haveImg": "n",
-      "txt": "・材料は持ち寄り\\n・笑いとかいらない。ガチで美味しくしにいく。\\n・感想戦で各々が持ってきた食材を公開し、センスを称賛または批難する。"
+      "txt": "・材料は持ち寄り\n・笑いとかいらない。ガチで美味しくしにいく。\n・感想戦で各々が持ってきた食材を公開し、センスを称賛または批難する。"
   },
   {
       "title": "五色と連帯",
@@ -3398,7 +3398,7 @@ const projects =
       "time": "ゲリラ",
       "place": "ロビーか寮入口",
       "haveImg": "n",
-      "txt": "GwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwaGwaGwaGwaGwaGwaGwa\\nGwaGwa"
+      "txt": "GwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwa"
   },
   {
       "title": "ウイスキー飲み比べ",
