@@ -801,7 +801,7 @@ const projects =
       "txt": ""
   },
   {
-      "title": "S or C?",
+      "title": "S or C",
       "date": "12/02",
       "time": "15:00",
       "place": "軟鉄庵",
