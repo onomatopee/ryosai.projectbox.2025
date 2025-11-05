@@ -3449,6 +3449,31 @@ const projects =
       "txt": ""
   },
   {
+    "title": "同上",
+    "date": "",
+    "time": "同上",
+    "place": "同上",
+    "haveImg": "y",
+    "txt": ""
+  },
+  // new projs
+  {
+    "title": "栃木県民コンパ",
+    "date": "11/29",
+    "time": "15:00",
+    "place": "食堂・食北",
+    "haveImg": "n",
+    "txt": "祭が熊野寮で開かれるらしいという話を目にし、そこからバババッと推論がいろいろと飛んで、結論としては、今後、栃木県が重要になるだろうという考えに至った。"
+  },
+  {
+    "title": "日就式卓球",
+    "date": "",
+    "time": "ゲリラ",
+    "place": "食堂",
+    "haveImg": "y",
+    "txt": ""
+  },
+  {
     "title": "ペット自慢大会",
     "date": "",
     "time": "ゲリラ",
@@ -3464,14 +3489,6 @@ const projects =
     "haveImg": "y",
     "txt": ""
   },
-  {
-      "title": "同上",
-      "date": "",
-      "time": "同上",
-      "place": "同上",
-      "haveImg": "y",
-      "txt": ""
-  }
 ];
 
 const index_finder = {};
