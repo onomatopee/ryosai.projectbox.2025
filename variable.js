@@ -3470,7 +3470,7 @@ const projects =
     "date": "",
     "time": "ゲリラ",
     "place": "食堂",
-    "haveImg": "y",
+    "haveImg": "n",
     "txt": ""
   },
   {
