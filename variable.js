@@ -3458,6 +3458,14 @@ const projects =
   },
   // new projs
   {
+    "title": "依存脱却",
+    "date": "11/28",
+    "time": "20:00",
+    "place": "食堂",
+    "haveImg": "y",
+    "txt": ""
+  },
+  {
     "title": "栃木県民コンパ",
     "date": "11/29",
     "time": "15:00",
