@@ -2676,7 +2676,7 @@ const projects =
       "title": "アルリオバトル",
       "date": "",
       "time": "ゲリラ",
-      "place": "食堂or軟鉄庵",
+      "place": "食堂か軟鉄庵",
       "haveImg": "y",
       "txt": "推しの酒を持ち寄り、飲み、布教し。"
   },
@@ -2692,7 +2692,7 @@ const projects =
       "title": "ぼかくら",
       "date": "",
       "time": "ゲリラ",
-      "place": "食堂or音楽室",
+      "place": "食堂か音楽室",
       "haveImg": "n",
       "txt": "ボカロオタクってこういうのが好きなんでしょ？って感じのセトリでDJします！"
   },
@@ -2700,7 +2700,7 @@ const projects =
       "title": "蒸留",
       "date": "",
       "time": "ゲリラ",
-      "place": "食堂or軟鉄庵",
+      "place": "食堂か軟鉄庵",
       "haveImg": "y",
       "txt": "蒸留を、します。"
   },
@@ -2908,7 +2908,7 @@ const projects =
       "title": "万物揚げ太郎",
       "date": "",
       "time": "ゲリラ",
-      "place": "食堂orロビー",
+      "place": "食堂かロビー",
       "haveImg": "n",
       "txt": "ルール　①客が持ち込んだ食べ物を何でも揚げる。　②客は揚げ物を必ず周りの人におすそ分けする。"
   },
