@@ -665,7 +665,7 @@ const projects =
       "txt": "ークラブくすのきー  みなさんご存知のクスノキの前でDJしたり、プロジェクターで映像当てたりします。ゆるく遊びましょう"
   },
   {
-      "title": "理農学部コンパ",
+      "title": "五穀豊穣コンパ",
       "date": "12/01",
       "time": "22:30",
       "place": "食堂",
@@ -2693,7 +2693,7 @@ const projects =
       "date": "",
       "time": "ゲリラ",
       "place": "食堂か音楽室",
-      "haveImg": "n",
+      "haveImg": "y",
       "txt": "ボカロオタクってこういうのが好きなんでしょ？って感じのセトリでDJします！"
   },
   {
@@ -3421,7 +3421,7 @@ const projects =
       "date": "",
       "time": "ゲリラ",
       "place": "軟鉄",
-      "haveImg": "y",
+      "haveImg": "n",
       "txt": ""
   },
   {
