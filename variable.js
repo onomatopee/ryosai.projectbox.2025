@@ -1325,7 +1325,7 @@ const projects =
       "date": "12/04",
       "time": "13:00",
       "place": "熊野寮全域（本部は食堂）",
-      "haveImg": "n",
+      "haveImg": "y",
       "txt": "写真のヒントを頼りに実際の場所を探し出せ！熊野寮圏内でGeoguessバトル開催！成績優秀者には賞品あり"
   },
   {
@@ -1877,7 +1877,7 @@ const projects =
       "date": "12/06",
       "time": "19:00",
       "place": "食堂",
-      "haveImg": "n",
+      "haveImg": "y",
       "txt": "選りすぐりのむせる料理を揃えました★全てむせずに食べることが絶対に不可能なように致しますので是非お越しください"
   },
   {
@@ -3397,8 +3397,8 @@ const projects =
       "date": "",
       "time": "ゲリラ",
       "place": "ロビーか寮入口",
-      "haveImg": "n",
-      "txt": "GwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwaGwa\nGwaGwa"
+      "haveImg": "y",
+      "txt": "GwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwa\nGwaGwaGwaGwaGwaGwaGwa"
   },
   {
       "title": "ウイスキー飲み比べ",
