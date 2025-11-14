@@ -125,7 +125,7 @@ const projects =
       "date": "11/28",
       "time": "21:00",
       "place": "Ｃ１２談話室",
-      "haveImg": "n",
+      "haveImg": "y",
       "txt": ""
   },
   {
