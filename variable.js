@@ -1533,7 +1533,7 @@ const projects =
       "date": "12/04",
       "time": "22:00",
       "place": "軟鉄庵",
-      "haveImg": "n",
+      "haveImg": "y",
       "txt": "本日のスペシャルゲストはウイスキー同好会です"
   },
   {
